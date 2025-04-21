@@ -6,6 +6,7 @@ import AboutUs from "./pages/AboutUs";
 import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs";
 import Blog from "./pages/Blog";
+import { Toaster } from "react-hot-toast";
 const App = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="*" element={() => <h1>Page Not Found</h1>} />
       </Routes>
+      <Toaster />
     </div>
   );
 };
