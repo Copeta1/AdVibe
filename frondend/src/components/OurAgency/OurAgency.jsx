@@ -19,7 +19,7 @@ const OurAgency = () => {
           <div className="py-4">
             <Link
               to="/"
-              className=" bg-orange-500 text-white px-5 py-2 rounded hover:bg-orange-600 transition"
+              className="btn bg-orange-500 text-white px-5 py-2 rounded hover:bg-orange-600 transition"
             >
               Read more
             </Link>
