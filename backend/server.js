@@ -1,5 +1,8 @@
 import express from "express";
 import dotenv from "dotenv";
+import cors from "cors";
+import cookieParser from "cookie-parser";
+import path from "path";
 
 import authRoutes from "./routes/auth.routes.js";
 
@@ -12,6 +15,7 @@ const PORT = process.env.PORT || 3001;
 const ALLOWED_ORIGIN = process.env.FRONTEND_URL || "http://localhost:3000";
 
 const app = express();
+app.use(cookieParser());
 
 const __dirname = path.resolve();
 
