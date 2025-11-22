@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar/Navbar";
 import Banner4 from "../assets/images/Banner4.png";
-import Footer from "../components/footer/Footer";
+import Footer from "../components/Footer/Footer";
 import Banner5 from "../assets/images/Banner5.png";
 
 const flows = [
